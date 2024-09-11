@@ -15,7 +15,7 @@ library(rgeos)
 
 rm(list=ls())
 
-# read in processed data. DOI 10.6084/m9.figshare.26983603
+# read in processed data. DOI 10.6084/m9.figshare.26983603.v1
 dat_civ <- read.csv("dat_civ.csv")
 dat_uga <- read.csv("dat_uga.csv")
 
@@ -23,9 +23,9 @@ dat_uga <- read.csv("dat_uga.csv")
 civ <- ne_countries(scale = "medium", returnclass = "sf", country="Ivory Coast")
 uga <- ne_countries(scale = "medium", returnclass = "sf", country="Uganda")
 
-# get field data
-fields_civ <- read.csv("KLH_Civ_cassava_fields_poly.csv")
-fields_uga <- read.csv("KLH_UGA_cassava_fields_poly.csv")
+# get field data. DOI https://doi.org/10.6084/m9.figshare.23657391.v1
+fields_civ <- read.csv("Civ_cassava_fields_poly.csv")
+fields_uga <- read.csv("UGA_cassava_fields_poly.csv")
 
 
 # CIV -----
