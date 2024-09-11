@@ -1,4 +1,5 @@
 # cassava-analysis
+![image](https://github.com/user-attachments/assets/dfb5c4cc-9fa7-4c5b-a89e-db7bbc3e5f87)
 
 Code associated with statistical anaysis for the article 
 _Validating a cassava spatial disaggregation model in sub-Saharan Africa_ (In press) 
